@@ -7,8 +7,8 @@ import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
 import Project from "./Project/Project";
 import Skills from "./Skills/Skills";
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+// import { useEffect, useRef } from "react";
+// import { gsap } from "gsap";
 import Loading from "../../../Loading/Loading";
 
 const Tabs = () => {
@@ -31,18 +31,18 @@ const Tabs = () => {
       return <Contact />;
     }
   };
-  const images = useRef();
-  useEffect(() => {
-    const kobe = images.current;
-    gsap.to(kobe, {
-      duration: 1,
-      ease: "power2.out",
-      // onRepeat: repeatFunction,
-      yoyo: true,
-      y: -20,
-      repeat: -1,
-    });
-  }, []);
+  // const images = useRef();
+  // useEffect(() => {
+  //   const kobe = images.current;
+  //   gsap.to(kobe, {
+  //     duration: 1,
+  //     ease: "power2.out",
+  //     // onRepeat: repeatFunction,
+  //     yoyo: true,
+  //     y: -20,
+  //     repeat: -1,
+  //   });
+  // }, []);
 
   // useEffect(() => {
   //   setTimeout(() => {
@@ -116,7 +116,7 @@ const Tabs = () => {
         {renderData()}
 
         <div class="home-logo">
-          <svg ref={images} width="100" height="100.573" viewBox="0 0 256 256">
+          <svg width="100" height="100.573" viewBox="0 0 256 256">
             <path
               fill="#f5f5f5"
               stroke="#000000"

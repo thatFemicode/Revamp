@@ -43,7 +43,7 @@ function App() {
   useEffect(() => {
     const tl = new TimelineMax();
     tl.to(screen, {
-      duration: 5,
+      duration: 2,
       width: "100%",
       left: "0%",
       ease: Power3.easeInOut,
@@ -52,7 +52,7 @@ function App() {
       duration: 1,
       left: "100%",
       ease: Power3.easeInOut,
-      delay: 9,
+      delay: 3,
     });
     tl.set(screen, { left: "-100%" });
     TweenMax.to(body, 0.3, {
@@ -61,7 +61,7 @@ function App() {
         pointerEvents: "auto",
         ease: Power4.easeInOut,
       },
-    }).delay(15);
+    }).delay(6);
     return () => {
       TweenMax.to(body, 1, {
         css: {

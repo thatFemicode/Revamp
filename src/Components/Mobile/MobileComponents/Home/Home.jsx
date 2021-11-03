@@ -4,21 +4,21 @@ import bg from "./lines.svg";
 import location from "./location.svg";
 import contact from "./contact.svg";
 import email from "./email.svg";
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+// import { useEffect, useRef } from "react";
+// import { gsap } from "gsap";
 const Home = () => {
-  const images = useRef();
-  useEffect(() => {
-    const kobe = images.current;
-    gsap.to(kobe, {
-      duration: 1,
-      ease: "power2.out",
-      // onRepeat: repeatFunction,
-      yoyo: true,
-      y: -20,
-      repeat: -1,
-    });
-  }, []);
+  // const images = useRef();
+  // useEffect(() => {
+  //   const kobe = images.current;
+  //   gsap.to(kobe, {
+  //     duration: 1,
+  //     ease: "power2.out",
+  //     // onRepeat: repeatFunction,
+  //     yoyo: true,
+  //     y: -20,
+  //     repeat: -1,
+  //   });
+  // }, []);
   return (
     <HomeStyled>
       <img className="lines" src={bg} alt="" />
@@ -66,7 +66,7 @@ const Home = () => {
 
           <div class="home-logo">
             <svg
-              ref={images}
+              // ref={images}
               width="100"
               height="100.573"
               viewBox="0 0 256 256"
