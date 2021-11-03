@@ -46,12 +46,12 @@ export const HomeStyled = styled.section`
   .home-logo {
     position: absolute;
     bottom: 0;
-    right: -70px;
+    right: 0;
     @media (min-width: ${({ theme }) => theme.max}) {
       right: -60px;
     }
     svg {
-      width: 40%;
+      width: 30px;
     }
   }
   .icon-text {

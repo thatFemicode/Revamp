@@ -23,18 +23,18 @@ const About = () => {
         watching football because my team gave me serious anxiety whenever they
         played 🤣🤣.
       </p>
-      <p>
+      {/* <p>
         My journey in the past 1 year of software development has taught me a
         lot, patience, perseverance amongst others. I am not the smartest of
         individuals but when i put my mind to something, i try as much to make
         sure a solution is found either through enormous googling which is a
         skill for software developers or via other means.
-      </p>
-      <p>
+      </p> */}
+      {/* <p>
         I'm sure you have noticed the Logo you have been seeing on my screen it
         basically spells my name, OGUNLEYE OLUWAFEMI DAVID, got the inspiration
         from the late great Kobe Bryant.
-      </p>
+      </p> */}
       <p>
         Generally things that interest me are Startups, really wish i could be a
         key piece to an organization or startup company starting out either it
@@ -43,12 +43,12 @@ const About = () => {
         although i do not seem to really get how that works, hopefully i do
         soon.
       </p>
-      <p>
+      {/* <p>
         Currently looking for my first role as a software engineer in the
         industry. I live in Lagos Nigeria and open to opportunities either
         remote or onsite, remote would be nice though 😁 because that is where
         the world is gravitating towards.
-      </p>
+      </p> */}
       <p>
         My goal is to provide nice and smooth digital experience for customers
         or consumers of products i will be contributing to using software and
