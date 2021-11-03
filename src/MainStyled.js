@@ -10,6 +10,9 @@ export const MainStyled = styled.main`
     position: absolute;
     overflow: hidden;
     overflow: hidden;
+    @media (max-width: ${({ theme }) => theme.main}) {
+      display: none;
+    }
   }
   .box {
     div {
