@@ -27,7 +27,7 @@ const Contact = () => {
         <ul>
           <li>
             <a
-              href="https://drive.google.com/file/d/1ZnDkZhO58WuqwnYhG2ZjEzhZwlvnbo0w/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

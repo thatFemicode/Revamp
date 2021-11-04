@@ -5,7 +5,7 @@ import bg from "./lines.svg";
 import location from "./location.svg";
 import contact from "./contact.svg";
 import email from "./email.svg";
-const Home = ({ loading, setLoading }) => {
+const Home = ({ }) => {
   return (
     <HomeStyled>
       <img className="lines" src={bg} alt="" />
@@ -19,7 +19,7 @@ const Home = ({ loading, setLoading }) => {
         </p>
         <button class="btn">
           <a
-            href="https://drive.google.com/file/d/1ZnDkZhO58WuqwnYhG2ZjEzhZwlvnbo0w/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
             target="_blank" rel="noreferrer"
           >
             Download Resume

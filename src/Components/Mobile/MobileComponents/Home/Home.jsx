@@ -33,27 +33,37 @@ const Home = () => {
           </p>
           <button class="btn">
             <a
-              href="https://drive.google.com/file/d/1ZnDkZhO58WuqwnYhG2ZjEzhZwlvnbo0w/view?usp=sharing"
-              target="_blank" rel="noreferrer"
+              href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               Download Resume
             </a>
           </button>
           <ul class="social">
             <li class="social-link">
-              <a href="https://twitter.com/leyedavid10" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/leyedavid10"
+                target="_blank"
+                rel="noreferrer"
+              >
                 TW
               </a>
             </li>
             <li class="social-link">
-              <a href="https://github.com/thatFemicode" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/thatFemicode"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GH
               </a>
             </li>
             <li class="social-link">
               <a
                 href="https://www.linkedin.com/in/oluwafemi-david-ogunleye-b5696a144/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 LN
               </a>
