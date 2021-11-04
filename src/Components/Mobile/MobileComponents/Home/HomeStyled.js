@@ -62,6 +62,7 @@ export const HomeStyled = styled.section`
         padding: 0.5rem 0;
         p {
           padding-left: 1rem;
+          margin-bottom: unset;
           /* margin-top: 1rem; */
         }
       }
@@ -71,7 +72,7 @@ export const HomeStyled = styled.section`
   .social {
     margin-top: 1rem;
     position: relative;
-
+    margin-bottom: 1rem;
     &-link {
       display: inline-block;
 
