@@ -25,12 +25,24 @@ export const PersonalStyled = styled.section`
     line-height: 1.6;
   }
 
-  .svgs {
+  /* .svgs {
     position: relative;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     right: -50%;
-    /* height: 100px; */
+    height: 100px;
+  } */
+  .socials {
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    li {
+      display: inline-block;
+      margin-top: 1rem;
+      &:not(:last-of-type) {
+        margin-right: 1rem;
+      }
+    }
   }
   /* .skill-con {
     h4 {

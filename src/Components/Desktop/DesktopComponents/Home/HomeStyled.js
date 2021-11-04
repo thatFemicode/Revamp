@@ -6,7 +6,7 @@ export const HomeStyled = styled.div`
   justify-content: space-between;
   /* height: 100%; */
   overflow: hidden;
-  @media (max-width: ${({ theme }) => theme.dont}) {
+  @media (max-width: ${({ theme }) => theme.balls}) {
     flex-direction: column-reverse;
   }
   .avatar {
@@ -16,16 +16,17 @@ export const HomeStyled = styled.div`
     }
     @media (max-width: ${({ theme }) => theme.mins}) {
       width: 40%;
-      margin-top: -6rem;
+      margin-top: -14rem;
+      align-self: center;
     }
-    @media (max-width: ${({ theme }) => theme.dont}) {
+    @media (max-width: ${({ theme }) => theme.balls}) {
       margin-top: unset;
-      width: 100%;
+      /* width: 100%; */
     }
   }
   .home-text {
     @media (max-width: ${({ theme }) => theme.mins}) {
-      flex: 2 0 60%;
+      flex: 2 0 70%;
     }
   }
   h1 {
@@ -36,6 +37,9 @@ export const HomeStyled = styled.div`
     }
     @media (min-width: ${({ theme }) => theme.big}) {
       font-size: 5rem;
+    }
+    @media (max-width: ${({ theme }) => theme.avatar}) {
+      font-size: 1.9rem;
     }
   }
   h2 {
@@ -100,5 +104,12 @@ export const HomeStyled = styled.div`
     top: -40rem;
     left: 0;
     z-index: -1;
+
+    @media (max-width: ${({ theme }) => theme.avatar}) {
+      top: -20rem;
+    }
+    @media (max-width: ${({ theme }) => theme.balls}) {
+      top: 0rem;
+    }
   }
 `;

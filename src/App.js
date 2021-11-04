@@ -26,6 +26,7 @@ const theme = {
   main: "850px",
   balls: "930px",
   post: "940px",
+  avatar: "1050px",
   kobe: "1200px",
   mind: "1100px",
   mins: "1300px",

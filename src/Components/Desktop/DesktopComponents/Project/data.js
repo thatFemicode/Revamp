@@ -10,7 +10,7 @@ const content = [
     body:
       "A fictional minimalist bank app built using array methods, and pure functions, leverages 3rd party api to get location providing weather update and giving time to app users when in use, Webapp follows principles of an SPA. A mini backend for authentication is done but using array methods. Design inspiration by me",
     tools: ["HTML", "SASS", "JS", "GSAP"],
-    url: "",
+    url: "https://express-bank.netlify.app/",
     git: git,
     image: Express,
   },
@@ -20,7 +20,7 @@ const content = [
     body:
       "A fictional travel website, design inspiration was gotten from Frontend mentor as a challenge",
     tools: ["HTML", "SASS", "JS", "GSAP"],
-    url: "",
+    url: "https://baradeldesigno.netlify.app/",
     git: git,
     image: Bar,
   },
@@ -30,7 +30,7 @@ const content = [
     body:
       "A countries project leveraging an api to fetch information about countries in the world, design inspiration was gotten from frontend mentor",
     tools: ["React", "SASS"],
-    url: "",
+    url: "https://restcountryapiproject.netlify.app",
     git: git,
     image: Res,
   },
@@ -48,7 +48,7 @@ const content = [
       "Express",
       "MongoDb",
     ],
-    url: "",
+    url: "https://nbaapp.netlify.app/",
     git: git,
     image: NBA,
   },

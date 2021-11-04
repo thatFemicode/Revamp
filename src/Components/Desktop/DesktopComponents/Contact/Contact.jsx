@@ -20,16 +20,40 @@ const Contact = () => {
       <div className="socials">
         <ul>
           <li>
-            <a href="">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1ZnDkZhO58WuqwnYhG2ZjEzhZwlvnbo0w/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </li>
           <li>
-            <a href="">LN</a>
+            <a
+              href="https://twitter.com/leyedavid10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              TW
+            </a>
           </li>
           <li>
-            <a href="">YT</a>
+            <a
+              href="https://github.com/thatFemicode"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GH
+            </a>
           </li>
           <li>
-            <a href="">GH</a>
+            <a
+              href="https://www.linkedin.com/in/oluwafemi-david-ogunleye-b5696a144/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LN
+            </a>
           </li>
         </ul>
       </div>

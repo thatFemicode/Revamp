@@ -9,12 +9,12 @@ import Project from "./Project/Project";
 import Skills from "./Skills/Skills";
 // import { useEffect, useRef } from "react";
 // import { gsap } from "gsap";
-import Loading from "../../../Loading/Loading";
+// import Loading from "../../../Loading/Loading";
 
 const Tabs = () => {
   const [info, setInfo] = useState(data);
   const [value, setValue] = useState(info[0]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const renderData = () => {
     if (value === info[0]) {
       // setTimeout(() => {
