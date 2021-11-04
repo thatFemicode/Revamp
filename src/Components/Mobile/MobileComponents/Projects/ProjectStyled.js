@@ -23,7 +23,7 @@ export const ProjectStyled = styled.section`
     backdrop-filter: blur(9px); */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 5px;
     @media (min-width: ${({ theme }) => theme.desktop}) {
       display: grid;

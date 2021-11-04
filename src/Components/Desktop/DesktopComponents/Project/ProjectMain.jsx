@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectMainStyled } from "./ProjectMainStyled";
 import { CardImage } from "./Media/CardMedia";
 const ProjectMain = ({ project }) => {
-  const { id, name, body, tools, url, git, image } = project;
+  const { id, name, body, tools, url, git, image, gitUrl } = project;
   return (
     <ProjectMainStyled
       bgColor={id === 1 && " #6BBE92"}
@@ -15,8 +15,10 @@ const ProjectMain = ({ project }) => {
       <h1>{name}</h1>
       <p>{body}</p>
       <p> {tools.join(", ")} </p>
-      <a href={url}>Live Url</a>
-      <a href="">
+      <a className="live" href={url}>
+        Live Url
+      </a>
+      <a href={gitUrl}>
         <img src={git} alt="" />
         Source code
       </a>

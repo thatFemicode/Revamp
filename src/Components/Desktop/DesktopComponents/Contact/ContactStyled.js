@@ -6,6 +6,10 @@ export const ContactStyled = styled.div`
   }
   p {
     margin-bottom: 1rem;
+
+    &:nth-child(1) {
+      margin-top: 0;
+    }
   }
   .lines {
     position: absolute;
@@ -24,6 +28,15 @@ export const ContactStyled = styled.div`
       &:not(:last-of-type) {
         margin-right: 1rem;
       }
+    }
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    /* padding: 0.5rem 0; */
+    p {
+      padding-left: 1rem;
+      margin-top: 1rem;
     }
   }
 `;

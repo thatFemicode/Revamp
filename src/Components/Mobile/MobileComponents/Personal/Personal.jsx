@@ -2,6 +2,7 @@ import React from "react";
 // import SkillButton from "./SkillButton";
 // import logo from "./lines.svg";
 import { PersonalStyled } from "./PersonalStyled";
+import email from "./email.svg";
 const Personal = () => {
   return (
     <PersonalStyled>
@@ -11,13 +12,22 @@ const Personal = () => {
           Send me a mail, let's have a conversation about an opportunity you
           have for me, i'd be glad,
         </p>
-        <p>
+        <div className="icon">
+          <img src={email} alt="" />
+          <p>Leyedavid10@gmail.com</p>
+        </div>
+        <p>I read my emails everyday so i'd get back to you ASAP! </p>
+        {/* <p>
           Currently looking for my first role as a software engineer in the
           industry. I live in Lagos Nigeria and open to opportunities either
           remote or onsite, remote would be nice though 😁 because that is where
           the world is gravitating towards.
+        </p> */}
+        <p>
+          Currently looking for my first role as a software engineer in the
+          industry. Open to opportunities 🚀
         </p>
-        <p>I read my emails everyday so i'd get back to you ASAP! </p>
+
         <div className="socials">
           <ul>
             <li>

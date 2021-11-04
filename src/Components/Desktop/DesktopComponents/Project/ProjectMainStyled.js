@@ -20,11 +20,24 @@ export const ProjectMainStyled = styled.div`
     bgColor5,
   }) => bgColor || bgColor3 || bgColor2 || bgColor4 || bgColor5}; */
   backdrop-filter: blur(9px);
-  a {
+  /* a {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.4rem;
+  } */
+  a {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-bottom: 0.4rem;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+  .live {
+    width: 5rem;
   }
   h1 {
     margin-bottom: 0.4rem;

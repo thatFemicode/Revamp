@@ -13,6 +13,7 @@ const content = [
     url: "https://express-bank.netlify.app/",
     git: git,
     image: Express,
+    gitUrl: "https://github.com/thatFemicode/Express-bank-app",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const content = [
     url: "https://baradeldesigno.netlify.app/",
     git: git,
     image: Bar,
+    gitUrl: "https://github.com/thatFemicode/Baradel-Designo-Project",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const content = [
     url: "https://restcountryapiproject.netlify.app",
     git: git,
     image: Res,
+    gitUrl: "https://github.com/thatFemicode/Rest-Country-API",
   },
   {
     id: 4,
@@ -51,6 +54,7 @@ const content = [
     url: "https://nbaapp.netlify.app/",
     git: git,
     image: NBA,
+    gitUrl: "https://github.com/thatFemicode/NBA-BLOG-WEBSITE",
   },
 ];
 

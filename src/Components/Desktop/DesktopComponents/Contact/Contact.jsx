@@ -1,22 +1,28 @@
 import React from "react";
 import { ContactStyled } from "./ContactStyled";
 import bg from "./line.svg";
+import email from "./email.svg";
 const Contact = () => {
   return (
     <ContactStyled>
+      {/* remote or onsite, remote would be
+        nice though 😁 because that is where the world is gravitating towards. */}
       <img className="lines" src={bg} alt="" />
       <h1>Impressed you?</h1>
       <p>
         Send me a mail, let's have a conversation about an opportunity you have
         for me, i'd be glad,
       </p>
+      <div className="icon">
+        <img src={email} alt="" />
+        <p>Leyedavid10@gmail.com</p>
+      </div>
+      <p>I read my emails everyday so i'd get back to you ASAP! </p>
       <p>
         Currently looking for my first role as a software engineer in the
-        industry. I live in Lagos Nigeria and open to opportunities either
-        remote or onsite, remote would be nice though 😁 because that is where
-        the world is gravitating towards.
+        industry. Open to opportunities 🚀
       </p>
-      <p>I read my emails everyday so i'd get back to you ASAP! </p>
+
       <div className="socials">
         <ul>
           <li>

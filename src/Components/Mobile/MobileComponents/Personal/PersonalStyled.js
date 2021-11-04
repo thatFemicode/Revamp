@@ -16,13 +16,29 @@ export const PersonalStyled = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  h1 {
+    margin-bottom: 1rem;
+  }
   h2 {
     text-align: center;
   }
   p {
     text-align: justify;
     line-height: 1.6;
+    margin-bottom: 1rem;
+
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    /* padding: 0.5rem 0; */
+    p {
+      padding-left: 1rem;
+      margin-top: 1rem;
+    }
   }
 
   /* .svgs {

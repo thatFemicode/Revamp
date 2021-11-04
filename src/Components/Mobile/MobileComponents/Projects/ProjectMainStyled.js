@@ -23,8 +23,15 @@ export const ProjectMainStyled = styled.div`
   a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 0.4rem;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+  .live {
+    width: 5rem;
   }
   h1 {
     margin-bottom: 0.4rem;
