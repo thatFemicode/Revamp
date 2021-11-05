@@ -15,10 +15,10 @@ const ProjectMain = ({ project }) => {
       <h1>{name}</h1>
       <p>{body}</p>
       <p> {tools.join(", ")} </p>
-      <a className="live" href={url}>
+      <a className="live" href={url} target="_blank" rel="noreferrer">
         Live Url
       </a>
-      <a href={gitUrl}>
+      <a href={gitUrl} target="_blank" rel="noreferrer">
         <img src={git} alt="" />
         Source code
       </a>
