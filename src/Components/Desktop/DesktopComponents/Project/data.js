@@ -34,7 +34,7 @@ const content = [
     ],
     url: "https://expense-history-tracker.netlify.app/",
     git: git,
-    image: Express,
+    image: Tracker,
     gitUrl: "https://github.com/thatFemicode/Mini-Expense-Tracker-MERN-",
   },
   {
@@ -56,7 +56,7 @@ const content = [
     tools: ["React", "Stlyed Components", "GSAP"],
     url: "https://goldenstate.netlify.app/",
     git: git,
-    image: Res,
+    image: Warriors,
     gitUrl: "https://github.com/thatFemicode/Gallery-GSW",
   },
   {
@@ -86,7 +86,7 @@ const content = [
     tools: ["React", "Stlyed Components", "GSAP"],
     url: "https://expressbmicalculator.netlify.app/",
     git: git,
-    image: NBA,
+    image: Bmi,
     gitUrl: "https://github.com/thatFemicode/BMI-calculator",
   },
 ];
