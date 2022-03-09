@@ -5,6 +5,8 @@ import { ThemeProvider } from "styled-components";
 import { MainStyled } from "./MainStyled";
 import { TweenMax, TimelineMax, Power3, Power4 } from "gsap";
 import { useRef, useEffect } from "react";
+import itemAnim from "./itemAnimation";
+
 const theme = {
   colors: {
     header: "#ebfbff",
@@ -38,56 +40,25 @@ const theme = {
 };
 
 function App() {
+  // Refs for loader animation
   let screen = useRef(null);
   let body = useRef(null);
+  let svg = useRef(null);
+  let path = useRef(null);
   // let logo = useRef(null);
   useEffect(() => {
-    const tl = new TimelineMax();
-    tl.to(screen, {
-      duration: 2,
-      width: "100%",
-      left: "0%",
-      ease: Power3.easeInOut,
-    });
-    tl.to(screen, {
-      duration: 1,
-      left: "100%",
-      ease: Power3.easeInOut,
-      delay: 3,
-    });
-    tl.set(screen, { left: "-100%" });
-    TweenMax.to(body, 0.3, {
-      css: {
-        opacity: "1",
-        pointerEvents: "auto",
-        ease: Power4.easeInOut,
-      },
-    }).delay(6);
-    return () => {
-      TweenMax.to(body, 1, {
-        css: {
-          opacity: "0",
-          pointerEvents: "none",
-        },
-      });
-    };
+    itemAnim(screen, svg, path, body);
   }, []);
   return (
     <>
       <div className="load-container">
         <div className="load-screen" ref={(el) => (screen = el)}>
-          <svg
-            className="svg"
-            // ref={(el) => (logo = el)}
-            width="400"
-            height="300.573"
-            viewBox="0 0 256 256"
-          >
+          <svg className="svg" viewBox="0 0 556 556" ref={(el) => (svg = el)}>
             <path
+              ref={(el) => (path = el)}
               className="logo"
               fill="none"
               stroke="#000000"
-              strokeWidth="13"
               d="m 15.625507,46.199537 55.767886,-32.030352 55.623047,32.281229 -0.14485,64.311586 0.14485,-64.311586 55.76788,-32.030352 55.62305,32.281229 -0.14485,64.311579 -55.76788,32.03036 -55.62305,-32.28123 55.62305,32.28123 -0.14485,64.31158 -55.76788,32.03035 L 70.958866,207.10393 71.103708,142.79235 126.87159,110.762 71.103708,142.79235 15.480664,110.51112 Z"
             />
           </svg>
