@@ -6,9 +6,9 @@ export const TabsStyled = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 3rem;
-  min-height: 10vh;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 
   .btn-con {
     grid-column: 1 / 2;
@@ -54,6 +54,13 @@ export const TabsStyled = styled.div`
     /* backdrop-filter: blur(9px); */
     padding: 2rem;
     border-radius: 5px;
+    max-height: 70vh;
+    overflow: auto;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   .home-logo {
     position: absolute;

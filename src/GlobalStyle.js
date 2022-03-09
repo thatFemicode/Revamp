@@ -72,6 +72,24 @@ li{
   /* background-color: #fff; */
   width: 0%;
   height: 100%;
+  svg 
+  {
+opacity:0;
+position: absolute;
+width:400px;
+height:400px;
+left:50%;
+transform:translateX(-40%);
+
+  path{
+    fill-opacity:0;
+    stroke-width:10;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 1500;
+    transform-origin:50% 50%;
+  }
+}
 }
 .load-screen1 {
   position: relative;

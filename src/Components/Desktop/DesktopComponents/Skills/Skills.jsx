@@ -16,9 +16,9 @@ const Skills = () => {
       <img className="lines" src={bg} alt="" />
       <p>
         Here are some of the skills i have picked up in my Journey in becoming a
-        software developer, React and Nodejs are two technologies i am working
-        with the most ath the moment trying to get knowledge on how backend
-        works and also work with modern frameworks like React.
+        software developer, React and GSAP are two technologies i am working
+        with the most at the moment, also trying to get knowledge on how backend
+        works.
       </p>
       <div className="skill-con">
         <ProgressBar

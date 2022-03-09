@@ -9,9 +9,10 @@ const About = () => {
         Hi there, I'm <strong>Femi </strong>
       </h1>
       <p>
-        I am a developer based in Lagos, Nigeria pursuing a career in tech
+        I am a developer based in Lagos, Nigeria pursuing a career in tech,
         focused on creating interactive experiences on the web, working with
-        various web tools such as React, CSS amongst others to achieve this.
+        various web tools such as React, Javascript amongst others to achieve
+        this.
       </p>
       {/* <p>
         In my free time i really enjoy watching and listening to anything

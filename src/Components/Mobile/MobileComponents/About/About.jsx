@@ -18,9 +18,10 @@ const About = () => {
         journey on getting better in my craft.
       </p> */}
       <p>
-        I am a developer based in Lagos, Nigeria pursuing a career in tech
+        I am a developer based in Lagos, Nigeria pursuing a career in tech,
         focused on creating interactive experiences on the web, working with
-        various web tools such as React, CSS amongst others to achieve this.
+        various web tools such as React, Javascript amongst others to achieve
+        this.
       </p>
       {/* <p>
         In my free time i really enjoy watching and listening to anything
@@ -60,7 +61,7 @@ const About = () => {
         remote or onsite, remote would be nice though 😁 because that is where
         the world is gravitating towards.
       </p> */}
-        <p>
+      <p>
         My goal is to provide nice and smooth digital experience for customers
         or consumers of products i will be contributing to using software and
         technology.
