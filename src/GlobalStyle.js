@@ -2,22 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import bg from "../src/img/bg.svg";
 const GlobalStyle = createGlobalStyle`
 :root{
-    /* --neutral-light: #F2F6FF;
-    --clr-primary-4: hsl(205, 63%, 48%);
-    --clr-primary-2: hsl(205, 77%, 27%);
-    --clr-primary-1: hsl(205, 86%, 17%);
-    --clr-primary-3: hsl(205, 72%, 37%);
-    --clr-white: #fff;
-   --clr-white: #fff;
-    --max-width: 1170px;
-    --fixed-width: 620px;
-    --transition: all 0.3s ease-in;
-    --clr-grey-1: hsl(209, 61%, 16%);
-    --radius: 0.25rem;
-    --tw-space-x-reverse: 0;
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --tw-bg-opacity: 0;
-  --tw-text-opacity: 1; */
+    
 }
 *{
     margin: 0;
@@ -37,6 +22,11 @@ body{
     /* background-color: #000; */
     /* color: #222260; */
     color:#292524;    
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 img{
     max-width: 100%;
@@ -127,21 +117,10 @@ li{
 }
 
 
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1500;
- }
- to {
-    stroke-dashoffset: 0;
- }
-}
 .Headd {
   opacity: 0;
   pointer-events: none;
 }
-/* .active-btn{
-    color: rgba(255, 255, 255, var(--tw-text-opacity));
-    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-} */
+
 `;
 export default GlobalStyle;
