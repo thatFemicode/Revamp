@@ -7,7 +7,7 @@ const About = () => {
       {/* <img className="line" src={line} alt="" /> */}
       {/* <h1>Let me introduce myself</h1> */}
       <h1>
-        Hi there, I'm <strong>Ogunleye Oluwafemi David</strong>
+        Hi there, I'm <strong>Oluwafemi </strong>
       </h1>
       {/* <p>Frontend Developer</p> */}
       {/* <p>
@@ -18,10 +18,10 @@ const About = () => {
         journey on getting better in my craft.
       </p> */}
       <p>
-        I am a developer based in Lagos, Nigeria pursuing a career in tech,
-        focused on creating interactive experiences on the web, working with
-        various web tools such as React, Javascript amongst others to achieve
-        this.
+        I am a frontend developer based in Lagos, Nigeria pursuing a career in
+        tech, focused on creating interactive experiences on the web, working
+        with various web tools such as React, Javascript amongst others to
+        achieve this.
       </p>
       {/* <p>
         In my free time i really enjoy watching and listening to anything
@@ -30,10 +30,11 @@ const About = () => {
         played 🤣🤣.
       </p> */}
       <p>
-        Generally things that interest me are basketball, Startups, really wish
-        i could be a key piece to an organization or startup company starting
-        out either it be in the finance industry or otherwise as it brings an
-        opportunity to grow and become a better engineer.
+        Generally things that interest me are basketball, startups, sports
+        journalism, really wish i could be a key piece to an organization or
+        startup company starting out either it be in the sports or media
+        industry or otherwise as it brings an opportunity to grow and become a
+        better engineer.
       </p>
       {/* <p>
         My journey in the past 1 year of software development has taught me a

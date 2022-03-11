@@ -5,6 +5,10 @@ export const MainMobileStyled = styled.section`
   margin: 0 auto;
   padding: 2rem 2rem;
 
+  @media (max-width: ${({ theme }) => theme.make}) {
+    padding: 2rem 1rem;
+  }
+
   .header {
     display: flex;
     align-items: center;
