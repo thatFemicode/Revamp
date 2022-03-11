@@ -2,7 +2,7 @@ import React from "react";
 import { HomeStyled } from "./HomeStyled";
 import bg from "./lines.svg";
 import location from "./location.svg";
-import contact from "./contact.svg";
+
 import email from "./email.svg";
 // import { useEffect, useRef } from "react";
 // import { gsap } from "gsap";
@@ -73,11 +73,7 @@ const Home = () => {
             <div className="icons">
               <div className="icon">
                 <img src={location} alt="" />
-                <p>Lagos Nigeria</p>
-              </div>
-              <div className="icon">
-                <img src={contact} alt="" />
-                <p>09057537519</p>
+                <p>Lagos, Nigeria</p>
               </div>
               <div className="icon">
                 <img src={email} alt="" />

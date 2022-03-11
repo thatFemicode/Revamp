@@ -3,9 +3,8 @@ import { HomeStyled } from "./HomeStyled";
 import avatar from "./avatar.svg";
 import bg from "./lines.svg";
 import location from "./location.svg";
-import contact from "./contact.svg";
 import email from "./email.svg";
-const Home = ({ }) => {
+const Home = ({}) => {
   return (
     <HomeStyled>
       <img className="lines" src={bg} alt="" />
@@ -20,26 +19,36 @@ const Home = ({ }) => {
         <button class="btn">
           <a
             href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             Download Resume
           </a>
         </button>
         <ul class="social">
           <li class="social-link">
-            <a href="https://twitter.com/leyedavid10" target="_blank" rel="noreferrer">
+            <a
+              href="https://twitter.com/leyedavid10"
+              target="_blank"
+              rel="noreferrer"
+            >
               TW
             </a>
           </li>
           <li class="social-link">
-            <a href="https://github.com/thatFemicode" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/thatFemicode"
+              target="_blank"
+              rel="noreferrer"
+            >
               GH
             </a>
           </li>
           <li class="social-link">
             <a
               href="https://www.linkedin.com/in/oluwafemi-david-ogunleye-b5696a144/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               LN
             </a>
@@ -50,10 +59,6 @@ const Home = ({ }) => {
             <div className="icon">
               <img src={location} alt="" />
               <p>Lagos Nigeria</p>
-            </div>
-            <div className="icon">
-              <img src={contact} alt="" />
-              <p>09057537519</p>
             </div>
             <div className="icon">
               <img src={email} alt="" />
