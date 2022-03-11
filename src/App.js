@@ -3,7 +3,6 @@ import MainMobile from "./Components/Mobile/MainMobile";
 import Desktop from "./Components/Desktop/Desktop";
 import { ThemeProvider } from "styled-components";
 import { MainStyled } from "./MainStyled";
-import { TweenMax, TimelineMax, Power3, Power4 } from "gsap";
 import { useRef, useEffect } from "react";
 import itemAnim from "./itemAnimation";
 
@@ -53,7 +52,15 @@ function App() {
     <>
       <div className="load-container">
         <div className="load-screen" ref={(el) => (screen = el)}>
-          <svg className="svg" viewBox="0 0 556 556" ref={(el) => (svg = el)}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            className="svg"
+            viewBox="0 0 250 250"
+            // width="55"
+            // height="55.573"
+            ref={(el) => (svg = el)}
+          >
             <path
               ref={(el) => (path = el)}
               className="logo"

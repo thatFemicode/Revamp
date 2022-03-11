@@ -71,7 +71,7 @@ li{
   backdrop-filter: blur(9px);
   /* background-color: #fff; */
   width: 0%;
-  height: 100%;
+  height: 100vh;
   svg 
   {
 opacity:0;
@@ -79,7 +79,18 @@ position: absolute;
 width:400px;
 height:400px;
 left:50%;
-transform:translateX(-40%);
+transform:translateX(-50%);
+
+@media screen and (max-width:450px){
+  width:200px;
+  height:200px;
+  /* transform:translateX(-60%); */
+}
+@media screen and (max-width:376px){
+  width:150px;
+  height:150px;
+  /* transform:translateX(-40%); */
+}
 
   path{
     fill-opacity:0;
