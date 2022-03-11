@@ -31,7 +31,7 @@ const Home = () => {
             products having great user experiences for different people using
             technology.
           </p>
-          <button class="btn">
+          <button className="btn">
             <a
               href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
               target="_blank"
@@ -40,8 +40,8 @@ const Home = () => {
               Download Resume
             </a>
           </button>
-          <ul class="social">
-            <li class="social-link">
+          <ul className="social">
+            <li className="social-link">
               <a
                 href="https://twitter.com/leyedavid10"
                 target="_blank"
@@ -50,7 +50,7 @@ const Home = () => {
                 TW
               </a>
             </li>
-            <li class="social-link">
+            <li className="social-link">
               <a
                 href="https://github.com/thatFemicode"
                 target="_blank"
@@ -59,7 +59,7 @@ const Home = () => {
                 GH
               </a>
             </li>
-            <li class="social-link">
+            <li className="social-link">
               <a
                 href="https://www.linkedin.com/in/oluwafemi-david-ogunleye-b5696a144/"
                 target="_blank"
@@ -82,7 +82,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="home-logo">
+          <div className="home-logo">
             <svg
               // ref={images}
               width="100"
@@ -92,7 +92,7 @@ const Home = () => {
               <path
                 fill="#f5f5f5"
                 stroke="#000000"
-                stroke-width="13"
+                strokeWidth="13"
                 d="m 15.625507,46.199537 55.767886,-32.030352 55.623047,32.281229 -0.14485,64.311586 0.14485,-64.311586 55.76788,-32.030352 55.62305,32.281229 -0.14485,64.311579 -55.76788,32.03036 -55.62305,-32.28123 55.62305,32.28123 -0.14485,64.31158 -55.76788,32.03035 L 70.958866,207.10393 71.103708,142.79235 126.87159,110.762 71.103708,142.79235 15.480664,110.51112 Z"
               />
             </svg>

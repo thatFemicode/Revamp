@@ -12,7 +12,7 @@ import Skills from "./Skills/Skills";
 // import Loading from "../../../Loading/Loading";
 
 const Tabs = () => {
-  const [info, setInfo] = useState(data);
+  const [info] = useState(data);
   const [value, setValue] = useState(info[0]);
   // const [loading, setLoading] = useState(true);
   const renderData = () => {
@@ -67,7 +67,7 @@ const Tabs = () => {
                   <path
                     fill="#f5f5f5"
                     stroke="#000000"
-                    stroke-width="13"
+                    strokeWidth="13"
                     d="m 15.625507,46.199537 55.767886,-32.030352 55.623047,32.281229 -0.14485,64.311586 0.14485,-64.311586 55.76788,-32.030352 55.62305,32.281229 -0.14485,64.311579 -55.76788,32.03036 -55.62305,-32.28123 55.62305,32.28123 -0.14485,64.31158 -55.76788,32.03035 L 70.958866,207.10393 71.103708,142.79235 126.87159,110.762 71.103708,142.79235 15.480664,110.51112 Z"
                   />
                 </svg>

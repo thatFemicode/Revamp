@@ -4,7 +4,7 @@ import avatar from "./avatar.svg";
 import bg from "./lines.svg";
 import location from "./location.svg";
 import email from "./email.svg";
-const Home = ({}) => {
+const Home = () => {
   return (
     <HomeStyled>
       <img className="lines" src={bg} alt="" />
@@ -16,7 +16,7 @@ const Home = ({}) => {
           products having great user experiences for different people using
           technology.
         </p>
-        <button class="btn">
+        <button className="btn">
           <a
             href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
             target="_blank"
@@ -25,8 +25,8 @@ const Home = ({}) => {
             Download Resume
           </a>
         </button>
-        <ul class="social">
-          <li class="social-link">
+        <ul className="social">
+          <li className="social-link">
             <a
               href="https://twitter.com/leyedavid10"
               target="_blank"
@@ -35,7 +35,7 @@ const Home = ({}) => {
               TW
             </a>
           </li>
-          <li class="social-link">
+          <li className="social-link">
             <a
               href="https://github.com/thatFemicode"
               target="_blank"
@@ -44,7 +44,7 @@ const Home = ({}) => {
               GH
             </a>
           </li>
-          <li class="social-link">
+          <li className="social-link">
             <a
               href="https://www.linkedin.com/in/oluwafemi-david-ogunleye-b5696a144/"
               target="_blank"
@@ -60,6 +60,7 @@ const Home = ({}) => {
               <img src={location} alt="" />
               <p>Lagos Nigeria</p>
             </div>
+
             <div className="icon">
               <img src={email} alt="" />
               <p>Leyedavid10@gmail.com</p>

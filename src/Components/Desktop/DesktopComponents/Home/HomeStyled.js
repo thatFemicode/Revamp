@@ -16,7 +16,7 @@ export const HomeStyled = styled.div`
     }
     @media (max-width: ${({ theme }) => theme.mins}) {
       width: 40%;
-      margin-top: -14rem;
+      margin-top: -9rem;
       align-self: center;
     }
     @media (max-width: ${({ theme }) => theme.balls}) {

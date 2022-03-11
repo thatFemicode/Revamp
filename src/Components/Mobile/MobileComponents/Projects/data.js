@@ -57,7 +57,7 @@ const content = [
     gitUrl: "https://github.com/thatFemicode/NBA-BLOG-WEBSITE",
   },
   {
-    id: 4,
+    id: 5,
     name: "BMI Calculator",
     body:
       "A bmi calculator used to calculate body mass index for individuals, uses the metric system for its measurement and local storage to persists data ",

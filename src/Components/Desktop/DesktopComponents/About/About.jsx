@@ -6,13 +6,13 @@ const About = () => {
     <AboutStyled>
       <img src={line} alt="" className="lines" />
       <h1>
-        Hi there, I'm <strong>Femi </strong>
+        Hi there, I'm <strong>Oluwafemi </strong>
       </h1>
       <p>
-        I am a developer based in Lagos, Nigeria pursuing a career in tech,
-        focused on creating interactive experiences on the web, working with
-        various web tools such as React, Javascript amongst others to achieve
-        this.
+        I am a frontend developer based in Lagos, Nigeria pursuing a career in
+        tech, focused on creating interactive experiences on the web, working
+        with various web tools such as React, Javascript amongst others to
+        achieve this.
       </p>
       {/* <p>
         In my free time i really enjoy watching and listening to anything
@@ -37,10 +37,11 @@ const About = () => {
         from the late great Kobe Bryant.
       </p> */}
       <p>
-        Generally things that interest me are basketball, Startups, really wish
-        i could be a key piece to an organization or startup company starting
-        out either it be in the finance industry or otherwise as it brings an
-        opportunity to grow and become a better engineer.
+        Generally things that interest me are basketball, startups, sports
+        journalism, really wish i could be a key piece to an organization or
+        startup company starting out either it be in the sports or media
+        industry or otherwise as it brings an opportunity to grow and become a
+        better engineer.
       </p>
       <p>
         My goal is to provide nice and smooth digital experience for customers
