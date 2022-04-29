@@ -15,7 +15,7 @@ const About = () => {
         achieve this.
       </p>
       {/* <p>
-        In my free time i really enjoy watching and listening to anything
+        In my free time  really enjoy watching and listening to anything
         basketball.
       </p> */}
       {/* <p>
@@ -38,14 +38,14 @@ const About = () => {
       </p> */}
       <p>
         Generally things that interest me are basketball, startups, sports
-        journalism, really wish i could be a key piece to an organization or
+        journalism, really wish I could be a key piece to an organization or
         startup company starting out either it be in the sports or media
         industry or otherwise as it brings an opportunity to grow and become a
         better engineer.
       </p>
       <p>
         My goal is to provide nice and smooth digital experience for customers
-        or consumers of products i will be contributing to using software and
+        or consumers of products I will be contributing to using software and
         technology.
       </p>
     </AboutStyled>

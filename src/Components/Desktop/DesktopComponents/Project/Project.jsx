@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <ProjectStyled>
       <ProjectStyled>
-        <h2>Some projects i have worked on lately</h2>
+        <h2>Some projects I have worked on lately</h2>
         <div className="projects">
           {content.map((project, index) => {
             return <ProjectMain key={project.id} project={project} />;
