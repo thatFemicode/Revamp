@@ -18,7 +18,7 @@ const Home = () => {
         </p>
         <button className="btn">
           <a
-            href="https://drive.google.com/file/d/1qIQpGA7s6zsW8Cnfc0oiamak9Z76gtWd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1x8WUx9xCQIf90xggA2RkbD5hCQQRfUdb/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

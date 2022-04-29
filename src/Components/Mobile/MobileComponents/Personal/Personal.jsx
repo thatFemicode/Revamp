@@ -32,7 +32,7 @@ const Personal = () => {
           <ul>
             <li>
               <a
-                href="https://drive.google.com/file/d/1LtYf6DxemLYpuJP0cYrNGBAJknAqi5bo/view?usp=sharing"
+                href="https://drive.google.com/file/d/1x8WUx9xCQIf90xggA2RkbD5hCQQRfUdb/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
