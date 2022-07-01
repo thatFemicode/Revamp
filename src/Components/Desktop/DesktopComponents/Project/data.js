@@ -6,6 +6,7 @@ import Bmi from "./Bmi.png";
 import Warriors from "./Warriors.png";
 import Women from "./blackwomen.png";
 import Nft from "./nftmarket.png";
+import Live from "./lives.png";
 const content = [
   {
     id: 1,
@@ -93,6 +94,21 @@ const content = [
     git: git,
     image: Nft,
     gitUrl: "https://github.com/thatFemicode/NFT-marketplace",
+  },
+  {
+    id: 8,
+    name: "NBA Live-score App",
+    body: "A Live-score app to get scores bth result and live updates of nba games ",
+    tools: [
+      "React",
+      "Stlyed Components",
+      "GSAP",
+      "TypeScript",
+      "React transition group",
+    ],
+    url: "https://nba-livescore.netlify.app/",
+    git: git,
+    image: Live,
   },
 ];
 

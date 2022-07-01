@@ -79,6 +79,20 @@ const content = [
     git: git,
     gitUrl: "https://github.com/thatFemicode/NFT-marketplace",
   },
+  {
+    id: 8,
+    name: "NBA Live-score App",
+    body: "A Live-score app to get scores bth result and live updates of nba games ",
+    tools: [
+      "React",
+      "Stlyed Components",
+      "GSAP",
+      "TypeScript",
+      "React transition group",
+    ],
+    url: "https://nba-livescore.netlify.app/",
+    git: git,
+  },
 ];
 
 export default content;
